@@ -12,7 +12,7 @@
 
 ```
 user_pref("alerts.useSystemBackend", true);
-user_pref("dom.event.contextmenu.enabled", false);
+user_pref("security.enterprise_roots.enabled", true);
 user_pref("general.smoothScroll", true);
 user_pref("general.smoothScroll.currentVelocityWeighting", "0.15");
 user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
