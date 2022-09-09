@@ -1,18 +1,14 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FadeMind/Pimp-My-Fox/master/img/firefox.png" alt="firefox"/>
-</p>
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FadeMind/Pimp-My-Fox/master/img/scr0761.png" alt="scr0761"/>
-</p>
-
-
 # FIREFOX ABOUT:CONFIG TWEAKS
 
+**Use Action Center notifications**
+**Use system roots certification storage**
 ```
 user_pref("alerts.useSystemBackend", true);
 user_pref("security.enterprise_roots.enabled", true);
+```
+
+**"Edge like scrolling" experience**
+```
 user_pref("general.smoothScroll", true);
 user_pref("general.smoothScroll.currentVelocityWeighting", "0.15");
 user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
@@ -25,6 +21,9 @@ user_pref("general.smoothScroll.other.durationMaxMS", 500);
 user_pref("general.smoothScroll.pages.durationMaxMS", 350);
 user_pref("general.smoothScroll.stopDecelerationWeighting", "0.8");
 user_pref("mousewheel.min_line_scroll_amount", 22);
+```
+**Privacy, disabing Mozilla Telemetry**
+```
 user_pref("browser.newtabpage.activity-stream.feeds.discoverystreamfeed", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
@@ -37,8 +36,7 @@ user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.show
 user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 ```
 
-# Edge-FrFox theme tweaks for Windows 11 Mica like theme
-
+**Edge-FrFox theme tweaks for Windows 11 Mica like theme**
 Copy `chrome` dir to your Firefox profile dir. 
 See `about:support` page for details. 
 
@@ -47,8 +45,10 @@ Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release`
 Add to `about:config` following tweaks (or edit `prefs.js` self)
 
 ```
+user_pref("layout.css.color-mix.enabled", true);
+user_pref("svg.context-properties.content.enabled", true);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("uc.tweak.disable-drag-space", true);
-user_pref("uc.tweak.floating-tabs", true);
 user_pref("uc.tweak.hide-newtab-logo", true);
 user_pref("uc.tweak.remove-tab-separators", true);
 user_pref("uc.tweak.smaller-context-menu-text", true);
@@ -89,5 +89,3 @@ Install `MSEdgeRedirect.exe` and redirect edge links to Firefox.
 - https://github.com/bmFtZQ/Edge-FrFox
 - https://github.com/MicaForEveryone/MicaForEveryone
 - https://github.com/rcmaehl/MSEdgeRedirect
-
-All trademarks are the property of their respective owners.
