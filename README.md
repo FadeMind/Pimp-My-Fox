@@ -1,0 +1,93 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FadeMind/Pimp-My-Fox/master/img/firefox.png" alt="firefox"/>
+</p>
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FadeMind/Pimp-My-Fox/master/img/scr0761.png" alt="scr0761"/>
+</p>
+
+
+# FIREFOX ABOUT:CONFIG TWEAKS
+
+```
+user_pref("alerts.useSystemBackend", true);
+user_pref("dom.event.contextmenu.enabled", false);
+user_pref("general.smoothScroll", true);
+user_pref("general.smoothScroll.currentVelocityWeighting", "0.15");
+user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
+user_pref("general.smoothScroll.mouseWheel.durationMinMS", 250);
+user_pref("general.smoothScroll.msdPhysics.enabled", true);
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 400);
+user_pref("general.smoothScroll.msdPhysics.regularSpringConstant", 600);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS", 120);
+user_pref("general.smoothScroll.other.durationMaxMS", 500);
+user_pref("general.smoothScroll.pages.durationMaxMS", 350);
+user_pref("general.smoothScroll.stopDecelerationWeighting", "0.8");
+user_pref("mousewheel.min_line_scroll_amount", 22);
+user_pref("browser.newtabpage.activity-stream.feeds.discoverystreamfeed", false);
+user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
+user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
+user_pref("browser.ping-centre.telemetry", false);
+user_pref("browser.tabs.crashReporting.sendReport", false);
+user_pref("extensions.pocket.enabled", false);
+user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.showSearch", false);
+user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+```
+
+# Edge-FrFox theme tweaks for Windows 11 Mica like theme
+
+Copy `chrome` dir to your Firefox profile dir. 
+See `about:support` page for details. 
+
+Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release`
+
+Add to `about:config` following tweaks (or edit `prefs.js` self)
+
+```
+user_pref("uc.tweak.disable-drag-space", true);
+user_pref("uc.tweak.floating-tabs", true);
+user_pref("uc.tweak.hide-newtab-logo", true);
+user_pref("uc.tweak.remove-tab-separators", true);
+user_pref("uc.tweak.smaller-context-menu-text", true);
+user_pref("uc.tweak.win11-mica", true);
+user_pref("browser.tabs.tabClipWidth", 86);
+user_pref("browser.tabs.tabMinWidth", 66);
+```
+
+Install Mica For Everyone and apply conf file setting also. 
+
+Install `MSEdgeRedirect.exe` and redirect edge links to Firefox. 
+
+# FIREFOX ADDONS
+
+- https://addons.mozilla.org/firefox/addon/fastforwardteam/
+- https://addons.mozilla.org/firefox/addon/adguard-adblocker/
+- https://addons.mozilla.org/firefox/addon/bitwarden-password-manager/
+- https://addons.mozilla.org/firefox/addon/bookmarks-clean-up/
+- https://addons.mozilla.org/firefox/addon/browser-cleaner-pro/
+- https://addons.mozilla.org/firefox/addon/cookiebro/
+- https://addons.mozilla.org/firefox/addon/enhancer-for-youtube/
+- https://addons.mozilla.org/firefox/addon/new-tab-speed-dial/
+- https://addons.mozilla.org/firefox/addon/polish-cookie-consent/
+- https://addons.mozilla.org/firefox/addon/search_by_image/
+- https://addons.mozilla.org/firefox/addon/simple-translate/
+- https://addons.mozilla.org/firefox/addon/sponsorblock/
+- https://addons.mozilla.org/firefox/addon/to-google-translate/
+- https://addons.mozilla.org/firefox/addon/tonec-idm-integration-module/
+- https://addons.mozilla.org/firefox/addon/view-image/
+- https://addons.mozilla.org/firefox/addon/violentmonkey/
+- https://addons.mozilla.org/firefox/addon/wikiwand-wikipedia-modernized/
+- https://github.com/AdguardTeam/AdGuardExtra
+
+<hr/>
+
+# CREDITS
+
+- https://github.com/bmFtZQ/Edge-FrFox
+- https://github.com/MicaForEveryone/MicaForEveryone
+- https://github.com/rcmaehl/MSEdgeRedirect
+
+All trademarks are the property of their respective owners.

@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "fetchNews": false,
+    "theme": {
+        "mode": 1,
+        "brightness": 105,
+        "contrast": 105,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": false,
+        "fontFamily": "Segoe UI",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "#181a1b",
+        "darkSchemeTextColor": "#e8e6e3",
+        "lightSchemeBackgroundColor": "#dcdad7",
+        "lightSchemeTextColor": "#181a1b",
+        "scrollbarColor": "auto",
+        "selectionColor": "auto",
+        "styleSystemControls": false,
+        "lightColorScheme": "Default",
+        "darkColorScheme": "Default",
+        "immediateModify": false
+    },
+    "presets": [],
+    "customThemes": [],
+    "siteList": [
+        "mail.google.com",
+        "adguard-dns.io",
+        "www.wykop.pl",
+        "github.com"
+    ],
+    "siteListEnabled": [],
+    "applyToListedOnly": false,
+    "changeBrowserTheme": false,
+    "syncSettings": true,
+    "syncSitesFixes": false,
+    "automation": {
+        "enabled": false,
+        "mode": "",
+        "behavior": "OnOff"
+    },
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    },
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "previewNewDesign": true,
+    "enableForPDF": true,
+    "enableForProtectedPages": false,
+    "enableContextMenus": false,
+    "detectDarkTheme": true
+}
