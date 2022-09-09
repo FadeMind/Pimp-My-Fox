@@ -1,6 +1,6 @@
 # FIREFOX ABOUT:CONFIG TWEAKS
 
-**Use Action Center notifications**
+**Use Action Center notifications** <br/>
 **Use system roots certification storage**
 ```
 user_pref("alerts.useSystemBackend", true);
@@ -22,7 +22,7 @@ user_pref("general.smoothScroll.pages.durationMaxMS", 350);
 user_pref("general.smoothScroll.stopDecelerationWeighting", "0.8");
 user_pref("mousewheel.min_line_scroll_amount", 22);
 ```
-**Privacy, disabing Mozilla Telemetry**
+**Privacy, disabing Mozilla Telemetry and sponsor content**
 ```
 user_pref("browser.newtabpage.activity-stream.feeds.discoverystreamfeed", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
