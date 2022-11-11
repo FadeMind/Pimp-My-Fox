@@ -1,0 +1,27 @@
+.
+|   files.log
+|   LICENSE
+|   README.md
+|   
++---adguard
+|       20221111_114359_adg_ext_settings_4.1.39.json
+|       
++---Darkreader
+|       Firefox-Dark-Reader-Settings.json
+|       
++---Edge-FrFox
+|       chrome.zip
+|       Edge-FrFox.url
+|       
++---mica-for-everyone
+|       MicaForEveryone-x64-Release.msixbundle
+|       MicaForEveryone.conf
+|       MicaForEveryone.url
+|       
++---MSEdgeRedirect
+|       MSEdgeRedirect.exe
+|       MSEdgeRedirect.url
+|       
+\---violentmonkey
+        violentmonkey_2022-11-11_11.46.46.zip
+        

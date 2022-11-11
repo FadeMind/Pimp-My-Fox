@@ -23,6 +23,7 @@ user_pref("general.smoothScroll.pages.durationMaxMS", 350);
 user_pref("general.smoothScroll.stopDecelerationWeighting", "0.8");
 user_pref("mousewheel.min_line_scroll_amount", 22);
 ```
+
 **Privacy, disabing Mozilla Telemetry and sponsor content**
 
 ```
@@ -39,7 +40,7 @@ user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.show
 ```
 
 **Edge-FrFox theme tweaks for Windows 11 Mica like theme** <br/>
-Copy `chrome` dir to your Firefox profile dir. See `about:support` page for details. <br/>
+Copy `chrome` directory from `chrome.zip` file to your Firefox profile dir. See `about:support` page for details. <br/>
 Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release` <br/>
 Add to `about:config` following tweaks (or edit `prefs.js` self)
 ```
@@ -55,18 +56,19 @@ user_pref("browser.tabs.tabClipWidth", 86);
 user_pref("browser.tabs.tabMinWidth", 66);
 ```
 Install Mica For Everyone and apply conf file setting also. 
-Install `MSEdgeRedirect.exe` and redirect edge links to Firefox. 
+Install `MSEdgeRedirect.exe` and redirect Microsoft Edge URLs to Firefox. 
 
 # FIREFOX ADDONS
 
-- https://addons.mozilla.org/firefox/addon/fastforwardteam/
 - https://addons.mozilla.org/firefox/addon/adguard-adblocker/
 - https://addons.mozilla.org/firefox/addon/bitwarden-password-manager/
 - https://addons.mozilla.org/firefox/addon/bookmarks-clean-up/
 - https://addons.mozilla.org/firefox/addon/browser-cleaner-pro/
 - https://addons.mozilla.org/firefox/addon/cookiebro/
 - https://addons.mozilla.org/firefox/addon/enhancer-for-youtube/
+- https://addons.mozilla.org/firefox/addon/fastforwardteam/
 - https://addons.mozilla.org/firefox/addon/new-tab-speed-dial/
+- https://addons.mozilla.org/firefox/addon/nx-enhanced/
 - https://addons.mozilla.org/firefox/addon/polish-cookie-consent/
 - https://addons.mozilla.org/firefox/addon/search_by_image/
 - https://addons.mozilla.org/firefox/addon/simple-translate/
