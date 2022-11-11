@@ -39,9 +39,8 @@ user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.show
 ```
 
 **Edge-FrFox theme tweaks for Windows 11 Mica like theme** <br/>
-Copy `chrome` dir to your Firefox profile dir. 
-See `about:support` page for details. 
-Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release`
+Copy `chrome` dir to your Firefox profile dir. See `about:support` page for details. <br/>
+Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release` <br/>
 Add to `about:config` following tweaks (or edit `prefs.js` self)
 ```
 user_pref("layout.css.color-mix.enabled", true);
