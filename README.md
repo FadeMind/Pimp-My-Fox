@@ -8,6 +8,7 @@ user_pref("security.enterprise_roots.enabled", true);
 ```
 
 **"Edge like scrolling" experience**
+
 ```
 user_pref("general.smoothScroll", true);
 user_pref("general.smoothScroll.currentVelocityWeighting", "0.15");
@@ -23,6 +24,7 @@ user_pref("general.smoothScroll.stopDecelerationWeighting", "0.8");
 user_pref("mousewheel.min_line_scroll_amount", 22);
 ```
 **Privacy, disabing Mozilla Telemetry and sponsor content**
+
 ```
 user_pref("browser.newtabpage.activity-stream.feeds.discoverystreamfeed", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
@@ -36,14 +38,11 @@ user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.show
 user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 ```
 
-**Edge-FrFox theme tweaks for Windows 11 Mica like theme**
+**Edge-FrFox theme tweaks for Windows 11 Mica like theme** <br/>
 Copy `chrome` dir to your Firefox profile dir. 
 See `about:support` page for details. 
-
 Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release`
-
 Add to `about:config` following tweaks (or edit `prefs.js` self)
-
 ```
 user_pref("layout.css.color-mix.enabled", true);
 user_pref("svg.context-properties.content.enabled", true);
@@ -56,9 +55,7 @@ user_pref("uc.tweak.win11-mica", true);
 user_pref("browser.tabs.tabClipWidth", 86);
 user_pref("browser.tabs.tabMinWidth", 66);
 ```
-
 Install Mica For Everyone and apply conf file setting also. 
-
 Install `MSEdgeRedirect.exe` and redirect edge links to Firefox. 
 
 # FIREFOX ADDONS
