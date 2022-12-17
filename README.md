@@ -39,6 +39,13 @@ user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.show
 user_pref("services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 ```
 
+**Disable Firefox Account Login button and tab in settings**
+
+If you don't using Firefox Account sync - hide buttons and options in settings. 
+```
+user_pref("identity.fxaccounts.enabled", false);
+```
+
 **Edge-FrFox theme tweaks for Windows 11 Mica like theme** <br/>
 Copy `chrome` directory from `chrome.zip` file to your Firefox profile dir. See `about:support` page for details. <br/>
 Sample PATH `%APPDATA%\Mozilla\Firefox\Profiles\abcd1234.default-release` <br/>
