@@ -1,10 +1,10 @@
 .
-|   files.log
 |   LICENSE
 |   README.md
+|   tree.log
 |   
-+---adguard
-|       20221111_114359_adg_ext_settings_4.1.39.json
++---Adguard
+|       20230616_120932_adg_ext_settings_4.1.56.json
 |       
 +---Darkreader
 |       Firefox-Dark-Reader-Settings.json
@@ -12,6 +12,9 @@
 +---Edge-FrFox
 |       chrome.zip
 |       Edge-FrFox.url
+|       
++---Enhancer for YouTube
+|       Enhancer for YouTube.json
 |       
 +---mica-for-everyone
 |       MicaForEveryone-x64-Release.msixbundle
