@@ -55,9 +55,12 @@ user_pref("layout.css.color-mix.enabled", true);
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("uc.tweak.disable-drag-space", true);
+user_pref("uc.tweak.floating-tabs", true);
+user_pref("uc.tweak.floating-tabs.equal-margin", true);
 user_pref("uc.tweak.force-tab-colour", true);
 user_pref("uc.tweak.hide-newtab-logo", true);
 user_pref("uc.tweak.remove-tab-separators", true);
+user_pref("uc.tweak.rounded-corners", true);
 user_pref("uc.tweak.show-tab-close-button-on-hover", true);
 user_pref("uc.tweak.smaller-context-menu-text", true);
 user_pref("uc.tweak.win11-mica", true);
@@ -77,7 +80,6 @@ Install `MSEdgeRedirect.exe` and redirect Microsoft Edge URLs to Firefox.
 - https://addons.mozilla.org/firefox/addon/enhancer-for-youtube/
 - https://addons.mozilla.org/firefox/addon/fastforwardteam/
 - https://addons.mozilla.org/firefox/addon/new-tab-speed-dial/
-- https://addons.mozilla.org/firefox/addon/nx-enhanced/
 - https://addons.mozilla.org/firefox/addon/polish-cookie-consent/
 - https://addons.mozilla.org/firefox/addon/search_by_image/
 - https://addons.mozilla.org/firefox/addon/simple-translate/
