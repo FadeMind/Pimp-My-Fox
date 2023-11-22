@@ -67,8 +67,11 @@ user_pref("uc.tweak.win11-mica", true);
 user_pref("browser.tabs.tabClipWidth", 86);
 user_pref("browser.tabs.tabMinWidth", 66);
 ```
+
 Install Mica For Everyone and apply conf file setting also. 
 Install `MSEdgeRedirect.exe` and redirect Microsoft Edge URLs to Firefox. 
+Remove Edge via Remove-MS-Edge tool. Read README.md from zip before use.
+
 
 # FIREFOX ADDONS
 
@@ -98,3 +101,4 @@ Install `MSEdgeRedirect.exe` and redirect Microsoft Edge URLs to Firefox.
 - https://github.com/bmFtZQ/Edge-FrFox
 - https://github.com/MicaForEveryone/MicaForEveryone
 - https://github.com/rcmaehl/MSEdgeRedirect
+- https://github.com/ShadowWhisperer/Remove-MS-Edge
